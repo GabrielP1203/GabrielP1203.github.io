@@ -138,3 +138,16 @@ a{
     border-radius: 999px;
 }
 
+.rodape{
+    margin-top: 40px;
+    padding: 25px;
+    background-color: pink;
+
+    text-align: center;
+
+}
+
+.rodape address{
+    font-style: normal;
+}
+
