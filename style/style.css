@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     background-color: whitesmoke;
     color: gray;
@@ -12,28 +12,36 @@ body{
     line-height: 1.6;
 }
 
-h1, h2, h{
+h1,
+h2,
+h {
     color: darkblue;
 }
 
-h1{
+h1 {
     font-size: 38px;
     margin-bottom: 10px;
 }
 
-h2{
+h2 {
     font-size: 26px;
 }
 
-h3{
+h3 {
     font-size: 20px;
 }
 
-a{
+a {
     color: royalblue;
 }
 
-.container{
+code,
+pre {
+    font-family: consolas, "courier new", monospace;
+
+}
+
+.container {
     width: 90%;
     max-width: 1000px;
 
@@ -41,18 +49,18 @@ a{
 
 }
 
-.cabecalho{
+.cabecalho {
     background-color: darkred;
     color: azure;
 
     padding: 30px 0;
 }
 
-.cabecalho h1{
+.cabecalho h1 {
     color: white;
 }
 
-.tag{
+.tag {
     margin-bottom: 5px;
 
     color: aquamarine;
@@ -62,25 +70,25 @@ a{
     letter-spacing: 2px;
 }
 
-.subtitulo{
+.subtitulo {
     max-width: 700px;
 }
 
-.menu-lista{
+.menu-lista {
     margin: 20px, 0 0;
     padding: 0;
 
     list-style: none;
 }
 
-.menu-lista li{
+.menu-lista li {
     display: inline-block;
 
     margin-right: 8px;
     margin-bottom: 8px;
 }
 
-.menu-link{
+.menu-link {
     display: inline-block;
 
     padding: 8px 12px;
@@ -92,18 +100,18 @@ a{
     border-radius: 5px;
 
     text-decoration: none;
-    
+
 }
 
-.menu-principal{
+.menu-principal {
     margin: 0 auto;
 }
 
-.secao{
+.secao {
     padding: 24px;
 }
 
-.titulo-secao{
+.titulo-secao {
     margin-bottom: 32px;
     padding-left: 12px;
 
@@ -111,12 +119,12 @@ a{
     border-radius: 5px;
 }
 
-.grade-cards{
+.grade-cards {
     display: grid;
     gap: 24px;
 }
 
-.card{
+.card {
     padding: 24px;
     background-color: white;
     border: 1px solid beige;
@@ -124,13 +132,13 @@ a{
     box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
 }
 
-.lista-tecnologias{
+.lista-tecnologias {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.lista-tecnologias li{
+.lista-tecnologias li {
     padding: 10px 14px;
     background: #fff;
     display: inline-block;
@@ -138,7 +146,7 @@ a{
     border-radius: 999px;
 }
 
-.rodape{
+.rodape {
     margin-top: 40px;
     padding: 25px;
     background-color: pink;
@@ -147,7 +155,6 @@ a{
 
 }
 
-.rodape address{
+.rodape address {
     font-style: normal;
 }
-
